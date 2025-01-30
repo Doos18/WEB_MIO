@@ -1,0 +1,61 @@
+@keyframes slide-up{
+    0%{
+        transform: translateY(80px);
+        opacity: 0;
+    }
+    100%{
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+@keyframes slide-left{
+    0%{
+        transform: translateX(80px);
+        opacity: 0;
+    }
+    100%{
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes slide-right {
+    0%{
+        transform: translatex(-80px);
+        opacity: 0;
+    }
+    100%{
+        transform: translateX(0);
+        opacity: 1;
+    }
+    
+}
+
+@keyframes opacidad {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+#proyectos{
+    opacity: 0;
+}
+
+#mioinfo{
+    opacity: 0;
+}
+
+#encabezado{
+    animation: slide-up 1.5s ease forwards;
+}
+
+#experiencias{
+    opacity: 0;
+}
+
+
+

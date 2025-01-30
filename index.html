@@ -17,9 +17,9 @@
       href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="../dist/output.css" />
-    <link rel="stylesheet" href="../dist/animation.css" />
-    <link rel="stylesheet" href="../dist/font-kanit.css" />
+    <link rel="stylesheet" href="dist/output.css" />
+    <link rel="stylesheet" href="dist/animation.css" />
+    <link rel="stylesheet" href="dist/font-kanit.css" />
     <link
       rel="stylesheet"
       href="https://use.fontawesome.com/releases/v5.12.1/css/all.css"
@@ -55,7 +55,7 @@
     <header class="relative">
       <div class="container mx-auto">
         <img
-          src="../img/encabezado.png"
+          src="img/encabezado.png"
           id="encabezado"
           class="bg-fixed transition-transform duration-500 w-full h-auto"
           alt="encabezado"
@@ -84,7 +84,14 @@
       <p
         class="kanit-extralight text-white text-22 md:text-[22px] transition ease-in hover:-translate-y-1 hover:scale-100"
       >
-      Soy un desarrollador con experiencia en la creación de proyectos emocionantes y creativos en diversas áreas de la programación. <br> A lo largo de mi trayectoria, he trabajado tanto en el desarrollo frontend como <br> en el backend, lo que me permite abordar proyectos de manera integral. <br> Mi objetivo es compartir contigo algunas de mis creaciones y experiencias en diferentes ámbitos del desarrollo
+        Soy un desarrollador con experiencia en la creación de proyectos
+        emocionantes y creativos en diversas áreas de la programación. <br />
+        A lo largo de mi trayectoria, he trabajado tanto en el desarrollo
+        frontend como <br />
+        en el backend, lo que me permite abordar proyectos de manera integral.
+        <br />
+        Mi objetivo es compartir contigo algunas de mis creaciones y
+        experiencias en diferentes ámbitos del desarrollo
       </p>
     </div>
 
@@ -98,7 +105,7 @@
       <div class="bg-blue-900 p-5 flex flex-wrap justify-center shadow-xl">
         <!-- C# -->
         <a
-          href="pages/csharp.html"
+          href="src/pages/csharp.html"
           class="transition-transform duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-105"
         >
           <div
@@ -114,7 +121,7 @@
         </a>
         <!-- VB# -->
         <a
-          href="pages/vb.html"
+          href="src/pages/vb.html"
           class="transition-transform duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-105"
         >
           <div
@@ -130,7 +137,7 @@
         </a>
         <!-- Python -->
         <a
-          href="pages/python.html"
+          href="src/pages/python.html"
           class="transition-transform duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-105"
         >
           <div
@@ -145,7 +152,7 @@
           </div>
         </a>
         <!-- Photoshop -->
-        <a
+        <!-- <a
           href=""
           class="transition-transform duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-105"
         >
@@ -159,10 +166,10 @@
               style="width: 180px"
             />
           </div>
-        </a>
+        </a> -->
         <!-- PHP -->
         <a
-          href="pages/php.html"
+          href="src/pages/php.html"
           class="transition-transform duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-105"
         >
           <div
@@ -178,7 +185,7 @@
         </a>
         <!-- React -->
         <a
-          href="pages/react.html"
+          href="src/pages/react.html"
           class="rounded-xl transition-transform duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-105"
         >
           <div
@@ -188,7 +195,7 @@
               src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSy5G8eECOD1PyiahPpMfAccK5bsb-iT5ozbw&s"
               alt="php"
               class="rounded-lg"
-              style="width: 180px;"
+              style="width: 180px"
             />
           </div>
         </a>
@@ -235,7 +242,7 @@
         </div>
         <div class="w-full md:w-1/2">
           <img
-            src="../img/ezeval.png"
+            src="img/ezeval.png"
             alt=""
             style="padding: 10px; border-radius: 20px"
             class="w-full md:w-full h-full object-cover"
@@ -259,8 +266,10 @@
             <li>Elaboración de Modulo de Imagenología</li>
             <li>Elaboración de Migraciones</li>
             <li>Elaboración de Controladores</li>
-            <li> Elaboración de APIS de los módulos de Pedidos,
-              Estudios, Diagnósticos e Informe de Imagenología </li>
+            <li>
+              Elaboración de APIS de los módulos de Pedidos, Estudios,
+              Diagnósticos e Informe de Imagenología
+            </li>
             <li>Elaboracion de pdf</li>
             <li>Tecnologia utilizada: Laravel 9.0, SQLServer y Postman</li>
           </ul>
@@ -268,65 +277,178 @@
         <!-- Carrusel -->
         <div class="w-full md:w-1/2 sm:mt-5 md:mt-5">
           <div id="carousel-example" class="relative w-full">
-              <!-- Carousel wrapper -->
-              <div class="relative h-56 sm:h-64 xl:h-80 2xl:h-96 overflow-hidden rounded-lg">
-                  <!-- Item 1 -->
-                  <div id="carousel-item-1" class="block duration-700 ease-in-out">
-                      <img src="../img/laravel.png" class="absolute left-1/2 top-1/2 block w-full -translate-x-1/2 -translate-y-1/2" alt="..." />
-                  </div>
-                  <!-- Item 2 -->
-                  <div id="carousel-item-2" class="hidden duration-700 ease-in-out">
-                      <img src="../img/carousel-1.jpeg" class="absolute left-1/2 top-1/2 block w-full -translate-x-1/2 -translate-y-1/2" alt="..." />
-                  </div>
-                  <!-- Item 3 -->
-                  <div id="carousel-item-3" class="hidden duration-700 ease-in-out">
-                      <img src="../img/postman.jpg" class="absolute left-1/2 top-1/2 block w-full -translate-x-1/2 -translate-y-1/2" alt="..." />
-                  </div>
-                  <!-- Item 4 -->
-                  <div id="carousel-item-4" class="hidden duration-700 ease-in-out">
-                      <img src="../img/carouusel-2.jpeg" class="absolute left-1/2 top-1/2 block w-full -translate-x-1/2 -translate-y-1/2" alt="..." />
-                  </div>
+            <!-- Carousel wrapper -->
+            <div
+              class="relative h-56 sm:h-64 xl:h-80 2xl:h-96 overflow-hidden rounded-lg"
+            >
+              <!-- Item 1 -->
+              <div id="carousel-item-1" class="block duration-700 ease-in-out">
+                <img
+                  src="img/laravel.png"
+                  class="absolute left-1/2 top-1/2 block w-full -translate-x-1/2 -translate-y-1/2"
+                  alt="..."
+                />
               </div>
-              <!-- Slider indicators -->
-              <div class="absolute bottom-5 left-1/2 z-30 flex -translate-x-1/2 space-x-3 rtl:space-x-reverse">
-                  <button id="carousel-indicator-1" type="button" class="h-3 w-3 rounded-full bg-white md:h-4 md:w-4" aria-current="true" aria-label="Slide 1"></button>
-                  <button id="carousel-indicator-2" type="button" class="h-3 w-3 rounded-full md:h-4 md:w-4" aria-current="false" aria-label="Slide 2"></button>
-                  <button id="carousel-indicator-3" type="button" class="h-3 w-3 rounded-full md:h-4 md:w-4" aria-current="false" aria-label="Slide 3"></button>
-                  <button id="carousel-indicator-4" type="button" class="h-3 w-3 rounded-full md:h-4 md:w-4" aria-current="false" aria-label="Slide 4"></button>
+              <!-- Item 2 -->
+              <div id="carousel-item-2" class="hidden duration-700 ease-in-out">
+                <img
+                  src="img/carousel-1.jpeg"
+                  class="absolute left-1/2 top-1/2 block w-full -translate-x-1/2 -translate-y-1/2"
+                  alt="..."
+                />
               </div>
-              <!-- Slider controls -->
-              <button id="data-carousel-prev" type="button" class="group absolute left-0 top-0 z-30 flex h-full cursor-pointer items-center justify-center px-4 focus:outline-none md:px-6">
-                  <span class="inline-flex h-10 w-10 items-center justify-center rounded-full bg-white/30 group-hover:bg-white/50 group-focus:outline-none group-focus:ring-4 group-focus:ring-white dark:bg-gray-800/30 dark:group-hover:bg-gray-800/60 dark:group-focus:ring-gray-800/70">
-                      <svg class="h-4 w-4 text-black dark:text-gray-800" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
-                          <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 1 1 5l4 4" />
-                      </svg>
-                      <span class="sr-only">Previous</span>
-                  </span>
-              </button>
-              <button id="data-carousel-next" type="button" class="group absolute right-0 top-0 z-30 flex h-full cursor-pointer items-center justify-center px-4 focus:outline-none md:px-6">
-                  <span class="inline-flex h-10 w-10 items-center justify-center rounded-full bg-white/30 group-hover:bg-white/50 group-focus:outline-none group-focus:ring-4 group-focus:ring-white dark:bg-gray-800/30 dark:group-hover:bg-gray-800/60 dark:group-focus:ring-gray-800/70">
-                      <svg class="h-4 w-4 text-black dark:text-gray-800" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
-                          <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 9 4-4-4-4" />
-                      </svg>
-                      <span class="sr-only">Next</span>
-                  </span>
-              </button>
+              <!-- Item 3 -->
+              <div id="carousel-item-3" class="hidden duration-700 ease-in-out">
+                <img
+                  src="img/postman.jpg"
+                  class="absolute left-1/2 top-1/2 block w-full -translate-x-1/2 -translate-y-1/2"
+                  alt="..."
+                />
+              </div>
+              <!-- Item 4 -->
+              <div id="carousel-item-4" class="hidden duration-700 ease-in-out">
+                <img
+                  src="img/carouusel-2.jpeg"
+                  class="absolute left-1/2 top-1/2 block w-full -translate-x-1/2 -translate-y-1/2"
+                  alt="..."
+                />
+              </div>
+            </div>
+            <!-- Slider indicators -->
+            <div
+              class="absolute bottom-5 left-1/2 z-30 flex -translate-x-1/2 space-x-3 rtl:space-x-reverse"
+            >
+              <button
+                id="carousel-indicator-1"
+                type="button"
+                class="h-3 w-3 rounded-full bg-white md:h-4 md:w-4"
+                aria-current="true"
+                aria-label="Slide 1"
+              ></button>
+              <button
+                id="carousel-indicator-2"
+                type="button"
+                class="h-3 w-3 rounded-full md:h-4 md:w-4"
+                aria-current="false"
+                aria-label="Slide 2"
+              ></button>
+              <button
+                id="carousel-indicator-3"
+                type="button"
+                class="h-3 w-3 rounded-full md:h-4 md:w-4"
+                aria-current="false"
+                aria-label="Slide 3"
+              ></button>
+              <button
+                id="carousel-indicator-4"
+                type="button"
+                class="h-3 w-3 rounded-full md:h-4 md:w-4"
+                aria-current="false"
+                aria-label="Slide 4"
+              ></button>
+            </div>
+            <!-- Slider controls -->
+            <button
+              id="data-carousel-prev"
+              type="button"
+              class="group absolute left-0 top-0 z-30 flex h-full cursor-pointer items-center justify-center px-4 focus:outline-none md:px-6"
+            >
+              <span
+                class="inline-flex h-10 w-10 items-center justify-center rounded-full bg-white/30 group-hover:bg-white/50 group-focus:outline-none group-focus:ring-4 group-focus:ring-white dark:bg-gray-800/30 dark:group-hover:bg-gray-800/60 dark:group-focus:ring-gray-800/70"
+              >
+                <svg
+                  class="h-4 w-4 text-black dark:text-gray-800"
+                  aria-hidden="true"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 6 10"
+                >
+                  <path
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M5 1 1 5l4 4"
+                  />
+                </svg>
+                <span class="sr-only">Previous</span>
+              </span>
+            </button>
+            <button
+              id="data-carousel-next"
+              type="button"
+              class="group absolute right-0 top-0 z-30 flex h-full cursor-pointer items-center justify-center px-4 focus:outline-none md:px-6"
+            >
+              <span
+                class="inline-flex h-10 w-10 items-center justify-center rounded-full bg-white/30 group-hover:bg-white/50 group-focus:outline-none group-focus:ring-4 group-focus:ring-white dark:bg-gray-800/30 dark:group-hover:bg-gray-800/60 dark:group-focus:ring-gray-800/70"
+              >
+                <svg
+                  class="h-4 w-4 text-black dark:text-gray-800"
+                  aria-hidden="true"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 6 10"
+                >
+                  <path
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="m1 9 4-4-4-4"
+                  />
+                </svg>
+                <span class="sr-only">Next</span>
+              </span>
+            </button>
           </div>
+        </div>
       </div>
-      
-      
+
+      <div class="mt-20" id="experiencias-3">
+        <div class="flex flex-wrap bg-blue-900 p-6 shadow-xl">
+          <div class="w-full md:w-1/2">
+            <h2 class="text-white kanit-extralight text-[22px] ml-5">
+              <b>Santa Elena Ecuador</b>
+            </h2>
+            <p class="text-white kanit-extralight ml-5">
+              <b>Rol:</b> Programador web <br />
+              <b>Duracion:</b> 3 meses <br />
+              <b>Actividades realizadas</b> <br />
+            </p>
+            <ul class="text-white ml-5">
+              <li>Elaboración de la pagina de LAS NUÑEZ</li>
+              <li>Tecnologias utilizadas: PHP, html, boostrap</li>
+              <li>
+                Pagina web:
+                <a
+                  href="https://turismosantaelena.com/lasnunez/lasnunez.php"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >turismosantaelena</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="w-full md:w-1/2">
+            <img
+              src="img/santaelena.png"
+              alt=""
+              style="padding: 10px; border-radius: 20px"
+              class="w-full md:w-full h-full object-cover"
+            />
+          </div>
+        </div>
       </div>
     </div>
-    <script src="../JS/carrusel.js"></script>
+    <script src="JS/carrusel.js"></script>
 
     <footer
       class="bg-black text-white text-center p-5"
       style="margin-top: 40px"
     >
       <p>&copy; 2025 Proyecto personal</p>
-      <a href="#" class="text-white hover:text-gray-200">Contacto</a>
     </footer>
 
-    <script src="../JS/scripts.js"></script>
+    <script src="JS/scripts.js"></script>
   </body>
 </html>

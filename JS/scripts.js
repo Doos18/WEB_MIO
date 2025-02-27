@@ -56,3 +56,16 @@ document.addEventListener('DOMContentLoaded', function(){
     });
     observador.observe(experiencias);
 });
+document.addEventListener('DOMContentLoaded', function(){
+    const experiencias= document.getElementById('experiencias-3');
+    const observador = new IntersectionObserver((entries)=> {
+        entries.forEach(entry=> {
+            if (entry.isIntersecting) {
+                experiencias.style.opacity = '1';
+                experiencias.style.animation = 'opacidad 2s ease-in forwards'
+                observador.unobserve(experiencias)
+            }
+        });
+    });
+    observador.observe(experiencias);
+});
